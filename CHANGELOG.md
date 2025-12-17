@@ -1,5 +1,13 @@
 # Changelog
 
+## 0.1.1 (2025-12-17)
+
+Full Changelog: [v0.1.0...v0.1.1](https://github.com/warpdotdev/warp-sdk-python/compare/v0.1.0...v0.1.1)
+
+### Documentation
+
+* add environment and config usage documentation ([487b1cf](https://github.com/warpdotdev/warp-sdk-python/commit/487b1cfac5fcd89d4c91f88903ef8b601da8269d))
+
 ## 0.1.0 (2025-12-17)
 
 Full Changelog: [v0.0.1...v0.1.0](https://github.com/warpdotdev/warp-sdk-python/compare/v0.0.1...v0.1.0)
