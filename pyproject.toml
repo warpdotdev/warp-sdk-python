@@ -1,6 +1,6 @@
 [project]
 name = "warp-sdk"
-version = "0.0.1"
+version = "0.1.0"
 description = "The official Python library for the warp-api API"
 dynamic = ["readme"]
 license = "Apache-2.0"
