@@ -1,5 +1,13 @@
 # Changelog
 
+## 0.3.0 (2026-01-05)
+
+Full Changelog: [v0.2.1...v0.3.0](https://github.com/warpdotdev/warp-sdk-python/compare/v0.2.1...v0.3.0)
+
+### Features
+
+* **api:** fix array query parameter formatting ([d1a1243](https://github.com/warpdotdev/warp-sdk-python/commit/d1a1243a0ab6b853b2340f8e7d3652bfe05ded20))
+
 ## 0.2.1 (2025-12-19)
 
 Full Changelog: [v0.2.0...v0.2.1](https://github.com/warpdotdev/warp-sdk-python/compare/v0.2.0...v0.2.1)
