@@ -1,5 +1,13 @@
 # Changelog
 
+## 0.3.1 (2026-01-07)
+
+Full Changelog: [v0.3.0...v0.3.1](https://github.com/warpdotdev/warp-sdk-python/compare/v0.3.0...v0.3.1)
+
+### Documentation
+
+* **dev:** Add WARP.md file ([7f1b835](https://github.com/warpdotdev/warp-sdk-python/commit/7f1b835240574dc517d424dca84251f86c4b1276))
+
 ## 0.3.0 (2026-01-05)
 
 Full Changelog: [v0.2.1...v0.3.0](https://github.com/warpdotdev/warp-sdk-python/compare/v0.2.1...v0.3.0)
