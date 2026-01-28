@@ -35,19 +35,25 @@ class McpServers(BaseModel):
 
 
 class AmbientAgentConfig(BaseModel):
-    """Configuration for an ambient agent task"""
+    """Configuration for an ambient agent run"""
 
     base_prompt: Optional[str] = None
     """Custom base prompt for the agent"""
 
     environment_id: Optional[str] = None
-    """UID of a CloudEnvironment GSO to use"""
+    """UID of the environment to run the agent in"""
 
     mcp_servers: Optional[Dict[str, McpServers]] = None
     """Map of MCP server configurations by name"""
 
     api_model_id: Optional[str] = FieldInfo(alias="model_id", default=None)
-    """LLM model to use (uses workspace default if not specified)"""
+    """LLM model to use (uses team default if not specified)"""
 
     name: Optional[str] = None
     """Config name for searchability and traceability"""
+
+    worker_host: Optional[str] = None
+    """
+    Self-hosted worker ID that should execute this task. If not specified or set to
+    "warp", the task runs on Warp-hosted workers.
+    """
