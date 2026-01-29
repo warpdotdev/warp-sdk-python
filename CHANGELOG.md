@@ -1,5 +1,32 @@
 # Changelog
 
+## 0.4.0 (2026-01-29)
+
+Full Changelog: [v0.3.0...v0.4.0](https://github.com/warpdotdev/warp-sdk-python/compare/v0.3.0...v0.4.0)
+
+### ⚠ BREAKING CHANGES
+
+* **api:** catch up openapi, rename tasks -> runs
+
+### Features
+
+* **api:** add artifacts, worker_host, and new source types ([4aa1225](https://github.com/warpdotdev/warp-sdk-python/commit/4aa12253c3cd40bbd8460dfe6602fed5080554a4))
+* **api:** catch up openapi, rename tasks -&gt; runs ([fe8c5b3](https://github.com/warpdotdev/warp-sdk-python/commit/fe8c5b3f2da07a415ecd21d0f1ae5985e45f1a4d))
+* **api:** created at filter in list view ([71adb45](https://github.com/warpdotdev/warp-sdk-python/commit/71adb45481ca3248d892e62ff767b9ea011e7f21))
+* **client:** add custom JSON encoder for extended type support ([68f4b61](https://github.com/warpdotdev/warp-sdk-python/commit/68f4b61fd83b1f5576b72ad6ea3a28cd58e06a68))
+* **client:** add support for binary request streaming ([c64e6c4](https://github.com/warpdotdev/warp-sdk-python/commit/c64e6c44b6d02a63609d02f4976a7977dc3b0045))
+
+
+### Chores
+
+* **ci:** upgrade `actions/github-script` ([713ae7d](https://github.com/warpdotdev/warp-sdk-python/commit/713ae7d03ee5f04eeac42b9a213d96ccc91d06d7))
+* **internal:** update `actions/checkout` version ([fd0a90f](https://github.com/warpdotdev/warp-sdk-python/commit/fd0a90fae32b8a7e352217e3672e63b9b4dbc594))
+
+
+### Documentation
+
+* **dev:** Add WARP.md file ([7f1b835](https://github.com/warpdotdev/warp-sdk-python/commit/7f1b835240574dc517d424dca84251f86c4b1276))
+
 ## 0.3.0 (2026-01-05)
 
 Full Changelog: [v0.2.1...v0.3.0](https://github.com/warpdotdev/warp-sdk-python/compare/v0.2.1...v0.3.0)
