@@ -36,19 +36,25 @@ class McpServers(TypedDict, total=False):
 
 
 class AmbientAgentConfigParam(TypedDict, total=False):
-    """Configuration for an ambient agent task"""
+    """Configuration for an ambient agent run"""
 
     base_prompt: str
     """Custom base prompt for the agent"""
 
     environment_id: str
-    """UID of a CloudEnvironment GSO to use"""
+    """UID of the environment to run the agent in"""
 
     mcp_servers: Dict[str, McpServers]
     """Map of MCP server configurations by name"""
 
     model_id: str
-    """LLM model to use (uses workspace default if not specified)"""
+    """LLM model to use (uses team default if not specified)"""
 
     name: str
     """Config name for searchability and traceability"""
+
+    worker_host: str
+    """
+    Self-hosted worker ID that should execute this task. If not specified or set to
+    "warp", the task runs on Warp-hosted workers.
+    """
